@@ -2,6 +2,8 @@
 by [Sergey Potapov](https://github.com/greyblake)
 
 
+![Esperanto and Vim](http://i1078.photobucket.com/albums/w484/greyblake/esperanto_vim_small.png "Esperanto and Vim")
+
 The plugin allows to use the international language in Vim.
 It doesn't require additional Esperanto keyboard in system, and keeps
 Vim behaviour the same as with English keyboard.
