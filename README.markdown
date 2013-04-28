@@ -31,7 +31,7 @@ defined by `EoMap` global variable.
 It's default mapping.  To use it add to `.vimrc` file:
 
 ```
-let EoMap = "keyboard"
+let g:EoMap = "keyboard"
 ```
 
 It simulates the Esperanto keyboard
@@ -52,7 +52,7 @@ Actually it adds the next mappings:
 To use it add to `.vimrc` file:
 
 ```
-let EoMap = "x"
+let g:EoMap = "x"
 ```
 
 Example:
@@ -66,7 +66,7 @@ Cxu vi sxatas gxin?  =  Ĉu vi ŝatas ĝin?
 To use it add to `.vimrc` file:
 
 ```
-let EoMap = "h"
+let g:EoMap = "h"
 ```
 
 Example:
@@ -80,7 +80,7 @@ Chu vi shatas ghin?  =  Ĉu vi ŝatas ĝin?
 To use it add to `.vimrc` file:
 
 ```
-let EoMap = "caret"
+let g:EoMap = "caret"
 ```
 
 Example:
