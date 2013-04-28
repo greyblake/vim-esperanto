@@ -1,0 +1,118 @@
+*esperanto.txt* For Vim version 7.3. Last Change: 2013 April 28 *Esperanto*
+           .
+          ,O,            ESPERANTO VIM PLUGIN
+         ,OOO,
+   'oooooOOOOOooooo'     Copyright: 2013-2013 Sergey Potapov
+     `OOOOOOOOOOO`       License:   LGPL version 3
+       `OOOOOOO`
+       OOOO'OOOO         Allows typing Esperanto characters in different
+      OOO'   'OOO        ways without using any additional keyboards.
+     O'         'O
+
+
+1. Contents *EsperantoContents*
+
+    1. Contents .............................. |EsperantoContents|
+    2. Commands .............................. |EsperantoCommands|
+        2.1 EoOn ............................. |EoOn|
+        2.2 EoOff ............................ |EoOff|
+        2.3 Eo ............................... |Eo|
+    3. EoMap ................................. |EoMap|
+        3.1 Keyboard mapping ................. |EoMapKeyboard|
+        3.2 X mapping ........................ |EoMapX|
+        3.3 H mapping ........................ |EoMapH|
+        3.4 Caret mapping .................... |EoMapCaret|
+    4. EoSpell ............................... |EoSpell|
+
+
+==============================================================================
+2. Commands                                                *EsperantoCommands*
+
+------------------------------------------------------------------------------
+2.1 EoOn                                                                *EoOn*
+
+Set Esperanto mappings on.
+
+------------------------------------------------------------------------------
+2.2 EoOff                                                              *EoOff*
+
+Set Esperanto mappings off
+
+------------------------------------------------------------------------------
+2.3 Eo                                                               *Eo* *EO*
+
+Toggle Esperanto mappings.
+
+
+==============================================================================
+3. EoMap                                                               *EoMap*
+
+There 4 ways to type Esperanto characters. It's defined by value of EoMap
+global variable. By default its value is "keyboard".
+
+------------------------------------------------------------------------------
+3.1 Keyboard mapping                                          *EoMapKeyboard*
+
+Set mappings for insert mode, which simulate Esperanto keyboard.
+Actually it maps the next keys: >
+    x = ĉ
+    q = ŝ
+    w = ĝ
+    y = ŭ
+    [ = ĵ
+    ] = ĥ
+<
+
+To use keyboard mapping: >
+    let g:EoMap='keyboard'
+<
+
+------------------------------------------------------------------------------
+3.2 X mapping                                                         *EoMapX*
+
+Set mappings for insert mode which allows to type letters with circumflexes
+(hat-letters) using "x" character.
+
+Example: >
+    Cxu vi sxatas gxin?  =  Ĉu vi ŝatas ĝin?
+<
+
+To use X mapping: >
+    let g:EoMap='x'
+<
+
+------------------------------------------------------------------------------
+3.3 H mapping                                                         *EoMapH*
+
+Set mappings for insert mode which allows to type letters with circumflexes
+(hat-letters) using "h" character.
+
+Example: >
+    Chu vi shatas ghin?  =  Ĉu vi ŝatas ĝin?
+<
+
+To use H mapping: >
+    let g:EoMap='h'
+<
+
+------------------------------------------------------------------------------
+3.4 Caret mapping                                                 *EoMapCaret*
+
+Set mappings for insert mode which allows to type letters with circumflexes
+(hat-letters) using "^" character.
+
+Example: >
+    C^u vi s^atas g^in?  =  Ĉu vi ŝatas ĝin?
+<
+
+To use caret mapping: >
+    let g:EoMap='caret'
+<
+
+==============================================================================
+4. EoSpell                                                           *EoSpell*
+
+By default Esperanto mode sets setting spelllang=eo.
+To disable it you should set EoSpell variable to 0: >
+    let g:EoSpell=1
+<
