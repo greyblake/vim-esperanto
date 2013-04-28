@@ -9,7 +9,7 @@ Vim behaviour the same as with English keyboard.
 
 ## Installation
 
-To install the plugin it's enough to copy `plugin`, `doc` directories into your `.vim` directory.
+To install the plugin it's enough to copy `plugin`, `autoload`, `doc` directories into your `.vim` directory.
 But I would recommend to use plugin manager Pathogen or Vundle
 
 ## Usage
