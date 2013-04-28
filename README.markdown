@@ -36,7 +36,7 @@ let EoMap = "keyboard"
 
 It simulates the Esperanto keyboard
 
-![Esperanto Klavaro](http://i1078.photobucket.com/albums/w484/greyblake/esperanto_klavaro.png "Esperanto Klavaro")
+![Esperanto Klavaro](http://i1078.photobucket.com/albums/w484/greyblake/esperanto_klavaro-1.png "Esperanto Klavaro")
 
 Actually it adds the next mappings:
 
