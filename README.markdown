@@ -1,9 +1,6 @@
 # Esperanto - Vim plugin for typing in Esperanto
 by [Sergey Potapov](https://github.com/greyblake)
 
-
-![Esperanto and Vim](http://i1078.photobucket.com/albums/w484/greyblake/esperanto_vim_small.png "Esperanto and Vim")
-
 The plugin allows to use the international language in Vim.
 It doesn't require additional Esperanto keyboard in system, and keeps
 Vim behaviour the same as with English keyboard.
@@ -36,9 +33,7 @@ It's default mapping.  To use it add to `.vimrc` file:
 let g:EoMap = "keyboard"
 ```
 
-It simulates the Esperanto keyboard
-
-![Esperanto Klavaro](http://i1078.photobucket.com/albums/w484/greyblake/esperanto_klavaro-1.png "Esperanto Klavaro")
+It simulates the Esperanto keyboard.
 
 Actually it adds the next mappings:
 

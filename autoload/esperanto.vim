@@ -2,10 +2,10 @@
 " File: esperanto.vim
 " Description: Vim plugin for typing in Esperanto language
 " Author: Sergey Potapov <blake131313 AT gmail DOT com>
-" Version: 0.1
+" Version: 0.2
 " Homepage: http://github.com/greyblake/vim-esperanto
 " License: LGPLv3 - look it up.
-" Copyright: Copyright (C) 2013-2013 Sergey Potapov
+" Copyright: Copyright (C) 2013-2018 Sergey Potapov
 " ============================================================================
 
 
@@ -69,6 +69,8 @@ let s:Mapper = {
 function! s:build_transliteration_mapping(xchar)
     " Mapping for x- and -h transliteration systems.
     let chars_mapping = {"h":"ĥ", "j":"ĵ", "u":"ŭ", "c":"ĉ", "s":"ŝ", "g":"ĝ"}
+    /// .name
+    Child(String)
 
     let mapper = deepcopy(s:Mapper)
     let mapper.modes = ['i', 'c']
