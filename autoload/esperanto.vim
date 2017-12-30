@@ -71,7 +71,7 @@ function! s:build_transliteration_mapping(xchar)
     let chars_mapping = {"h":"ĥ", "j":"ĵ", "u":"ŭ", "c":"ĉ", "s":"ŝ", "g":"ĝ"}
 
     let mapper = deepcopy(s:Mapper)
-    let mapper.modes = ['i']
+    let mapper.modes = ['i', 'c']
 
     if toupper(a:xchar) == tolower(a:xchar)
         let xchars = [a:xchar]
@@ -98,7 +98,7 @@ function! s:build_eo_keyboard_mapping()
     let eo_key_maps = {'q':'ŝ', 'w':'ĝ', 'y':'ŭ', '[':'ĵ', 'x':'ĉ', ']':'ĥ'}
 
     let mapper = deepcopy(s:Mapper)
-    let mapper.modes = ['i']
+    let mapper.modes = ['i', 'c']
 
     for mapping in items(eo_key_maps)
         let en_char  = mapping[0]
