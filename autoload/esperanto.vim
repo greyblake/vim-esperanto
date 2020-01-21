@@ -69,8 +69,6 @@ let s:Mapper = {
 function! s:build_transliteration_mapping(xchar)
     " Mapping for x- and -h transliteration systems.
     let chars_mapping = {"h":"ĥ", "j":"ĵ", "u":"ŭ", "c":"ĉ", "s":"ŝ", "g":"ĝ"}
-    /// .name
-    Child(String)
 
     let mapper = deepcopy(s:Mapper)
     let mapper.modes = ['i', 'c']
